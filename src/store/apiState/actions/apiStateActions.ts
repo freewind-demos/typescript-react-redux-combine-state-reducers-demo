@@ -1,4 +1,7 @@
-import {DeleteFruitAction} from './actionTypes';
+export type DeleteFruitAction = {
+  type: 'DELETE_FRUIT',
+  fruitName: string,
+}
 
 export function deleteFruitAction(name: string): DeleteFruitAction {
   return {
@@ -6,3 +9,4 @@ export function deleteFruitAction(name: string): DeleteFruitAction {
     fruitName: name
   }
 }
+

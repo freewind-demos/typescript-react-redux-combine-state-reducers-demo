@@ -1,5 +1,5 @@
-TypeScript React Redux Demo
-===========================
+TypeScript React Redux Combine State Reducers Demo
+==================================================
 
 ```
 npm install
